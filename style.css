@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background-color: rgb(236, 232, 232);
+    margin: 1.9rem .8rem;
+    height: 100%;
+}
+header{
+    padding: 3rem 0 2.4rem 0;
+    text-align: center;
+}
+header, #img-div{
+    text-align: center;
+}
+header h1{
+    line-height: 2;
+    font-size: 2.7rem;
+}
+
+header p{
+    position: relative;
+    top: 1rem;
+    font-size: 1.2rem;
+}
+
+#img-div{
+    background-color: #ffff;
+    width: 96%;
+    margin: 0 auto;
+}
+
+#img-div > img{
+    width: 63%;
+    margin-bottom: 1rem;
+}
+
+#img-div > p{
+    padding-bottom: 1rem;
+    color: rgba(8, 8, 8, 0.733);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 19.4rem 1rem;
+}
+
+.timeline-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline-container > h3{
+    padding: 3rem 0;
+}
+
+.timeline-container > ul{
+    width: 29%;
+    line-height: 2;
+    text-align: left;
+}
+
+.quote{
+    width: 31%;
+    margin-top: 46px;
+    margin: auto;
+}
+
+q{
+    line-height: 1.5;
+}
+.quoter{
+    padding: 1.5rem 0;
+}
+
+.link{
+    text-align: center;
+    padding: 1.5rem 0 2rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px)
+{
+    #img-div > img{
+        width: 100%;
+        padding: 1rem .6rem 0;
+    }
+
+    #img-div > p{
+        width: 100%;
+        padding: 0 1rem 1rem;
+    }
+    .timeline-container{
+        width: 75%;
+        margin: auto;
+    }
+    .timeline-container > ul{
+        width: 100%;
+    }
+
+    .quote{
+        width: 100%;
+        padding: 0 .7rem;
+
+    }
+    .link{
+        padding: 1.5rem 1rem 2rem;
+    }
+    
+
+}
